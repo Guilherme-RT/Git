@@ -12,15 +12,15 @@
 
 ### Como trabalhar com o Git? 
 
-3. Comandos no Git: 
+3. Comandos básicos no Git: 
 
  - `git init`: Inicia um processo de gerenciamento de arquivos na plataforma Git;
 
- - `git status`: Apresenta no prompt, como o pr´prio comando já diz, a posição do arquivo no Git, ou seja: **Untracked**, **Tracked** ou **Commited**;
+ - `git add` _arquivo_: Adiciona um determinado arquivo da posição Untracked para Tracked, para que possa ser "commitado" posteriormente;
 
- - `git add` arquivo: Adiciona um determinado arquivo da posição Untracked para Tracked, para que possa ser "commitado" posteriormente;
+ - `git status`: Apresenta no prompt, como o próprio comando já diz, a posição do arquivo no Git, ou seja: **Untracked**, **Tracked** ou **Commited**;
 
- - `git commit -m` descrição: Passa o arquivo para a posição **"Commited"**, que representa que o arquivo está pronto para ser **Publicado**.
+ - `git commit -m` _descrição_: Passa o arquivo para a posição **"Commited"**, que representa que o arquivo está pronto para ser **Publicado**.
 
  - `git remote add origin` link URL do repositório externo: **Adiciona** um repositório externo ao Git.
 
@@ -29,14 +29,14 @@
  - `commit pull origin master`: **Adquire/Puxa** o arquivo de um repositório de arquivos da sua escolha, como o GitHub, por exemplo;
 
  - `commit config`
-- `--list`: **Busca e lista** todas as configurações disponiveis no seu Git;
-- `--global` configuração: **Inclui** a configuração, associando-a ao Git:
+ - - `--list`: **Busca e lista** todas as configurações disponiveis no seu Git;
+ - - `--global` configuração: **Inclui** a configuração, associando-a ao Git:
 
-      Ex. de configurações: user.e-mail; user.nickname
+           Ex. de configurações: user.e-mail; user.nickname
 
-- `--global --unset` configuração: **Remove** a configuração associada ao Git:
+ - - `--global --unset` configuração: **Remove** a configuração associada ao Git:
 
-      Ex. de configurações: user.e-mail; user.nickname
+           Ex. de configurações: user.e-mail; user.nickname
 
 # GitHub
 
