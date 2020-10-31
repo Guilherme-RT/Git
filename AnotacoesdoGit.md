@@ -24,11 +24,11 @@
 
  - `git remote add origin` link URL do repositório externo: **Adiciona** um repositório externo ao Git.
 
- - `commit push origin master` **Publica/Empurra** o arquivo em um repositório de arquivos da sua escolha, como o GitHub, por exemplo;
+ - `git push origin master` **Publica/Empurra** o arquivo em um repositório de arquivos da sua escolha, como o GitHub, por exemplo;
 
- - `commit pull origin master`: **Adquire/Puxa** o arquivo de um repositório de arquivos da sua escolha, como o GitHub, por exemplo;
+ - `git pull origin master`: **Adquire/Puxa** o arquivo de um repositório de arquivos da sua escolha, como o GitHub, por exemplo;
 
- - `commit config`
+ - `git config`
  - - `--list`: **Busca e lista** todas as configurações disponiveis no seu Git;
  - - `--global` configuração: **Inclui** a configuração, associando-a ao Git:
 
